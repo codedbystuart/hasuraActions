@@ -26,3 +26,11 @@ export const ADD_TO_CART_QUERY = `
     }
   }
 `;
+
+export const PLACE_ORDER_MUTATION = `
+  mutation ($object: order_insert_input!) {
+    insert_order_one(object: $object) {
+      id
+    }
+  }
+`;
