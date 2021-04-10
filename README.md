@@ -1,4 +1,4 @@
-# nodejs-express
+# Hasura Actions to make Payments (Nodejs and Express)
 
 This is a starter kit for `nodejs` with `express`. To get started:
 
